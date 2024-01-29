@@ -73,7 +73,7 @@ int main(){
         case 2:
             cout << "Enter customer account number to display: ";
             cin >> a;
-            if (a >= 0 && a < i)
+            if (a >= 0 )
             {
                 coustomer[a].display();
             }
@@ -85,7 +85,7 @@ int main(){
         case 3:
             cout << "Enter customer account number to display: ";
             cin >> a;
-            if (a >= 0 && a < i)
+            if (a >= 0 )
             {
                 cout<<"Enter amount to be deposited:"<<endl;
                 cin>>d;
@@ -99,7 +99,7 @@ int main(){
         case 4:
             cout << "Enter customer account number to display: ";
             cin >> a;
-            if (a >= 0 && a < i)
+            if (a >= 0 )
             {
                 cout<<"Enter amount to be witdraw:"<<endl;
                 cin>>d;
